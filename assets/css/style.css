@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+.calculadora {
+  margin: 0 auto;
+  width: 270px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#resultado {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 7px 7px 0px 0px;;
+  height: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #efd81d;
+  text-align: right;
+  font-size: 2.5rem;
+  color: black;
+  overflow-x: auto;
+  transition: all .2s ease-in-out;
+}
+
+.simbolos div {
+  color: black;
+  display: inline-block;
+  border-radius: 7px;
+  width: 40px;
+  text-align: center;
+  padding: 8px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #efd81d;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  border: 1px solid #ddd;
+}
+
+.panel-numeros {
+  display: inline-block;
+  width: 215px;
+}
+
+.numeros div {
+  color: black;
+  display: inline-block;
+  border-radius: 7px;
+  width: 40px;
+  text-align: center;
+  padding: 8px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #efd81d;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  z-index: 1000;
+  border: 1px solid #ddd;
+}
+
+#enviarHistorial {
+  width: auto !important;
+}
+
+#igual {
+  display: inline-block;
+  border-radius: 7px;
+  width: 40px;
+  text-align: center;
+  padding: 101px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: black;
+  background-color: #efd81d;
+  transition: all .2s ease-in-out;
+  position: relative;
+  top: -0.2px;
+  right: 36px;
+  border: 1px solid #ddd;
+} 
+
+#borrarHistorial, #verHistorial {
+  width: 50% !important;
+  margin: 2px;
+}
+
+.historiales {
+  width: 266px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.historiales .divdehistoriales {
+  width: 50% !important;
+}
+
+.divdehistoriales label {
+  min-height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swal2-popup{
+  width: auto!important;
+}
+
+#swal2-title {
+  width: 750px !important;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* Other
+ * =============================== */
+
+p img {
+  max-width: 200px;
+  height: auto;
+  float: left;
+  margin: 0 1em 1em 0;
+}
